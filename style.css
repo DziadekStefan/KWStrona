@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(255, 0, 0);
+    text-align: center;
+}
+#logoH{
+    position: absolute;
+    top: 25px;
+    left: 50px;
+    width: 100px;
+    height: 100px;  
+}
+#logoF{
+    width: 100px;
+    height: 100px;
+}
+#nazwafirmy{
+    padding-top: 50px;
+}
+#info{
+    position: absolute;
+    top: 25px;
+    right: 50px;
+    width: 100px;
+    height: 100px;
+    color: brown;
+    overflow: hidden;
+    text-align: justify;
+    
+}
+#znakI{
+    width: 100px;
+    height: 100px;
+}
+#info:hover{
+    height: 200px;
+}
+main{
+    width: 100%;
+    min-height: 1000px;
+    background-color: rgb(47, 255, 0);
+}
+footer{
+    width: 100%;
+    height: 150px;
+    background-color: aqua;
+    text-align: center;
+}
+#podpis{
+    opacity: 0.6;
+}
