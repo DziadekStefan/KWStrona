@@ -1,56 +1,77 @@
 *{
     margin: 0;
     padding: 0;
+    color: #1DB5C1;
 }
 header{
+    display: flex;
+    flex-wrap: nowrap;
+    position: relative;
     width: 100%;
     height: 150px;
-    background-color: rgb(255, 0, 0);
+    background-color: #062032;
+}
+#Hlewo{
+    min-width: 15%;
+    height: 150px;
+}
+#logo{
+    padding-top: 25px;
     text-align: center;
 }
-#logoH{
-    position: absolute;
-    top: 25px;
-    left: 50px;
-    width: 100px;
-    height: 100px;  
-}
 #logoF{
-    width: 100px;
     height: 100px;
+    width: 100px;
 }
-#nazwafirmy{
+#Hmenu{
+    display: flex;
+    min-width: 85%;
+    height: 150px;
+}
+.menu{
     padding-top: 50px;
+    min-width: calc(100%/4);
+    max-height: 150px;
+    color: #1DB5C1;
+    background-color: #062032;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    box-sizing: border-box;
 }
-#info{
-    position: absolute;
-    top: 25px;
-    right: 50px;
-    width: 100px;
-    height: 100px;
-    color: brown;
-    overflow: hidden;
-    text-align: justify;
-    
-}
-#znakI{
-    width: 100px;
-    height: 100px;
-}
-#info:hover{
-    height: 200px;
+.kontener{
+    display: flex;
 }
 main{
     width: 100%;
     min-height: 1000px;
     background-color: rgb(47, 255, 0);
 }
+#l1m{
+    width: 35%;
+    height: 400px;
+    padding-top: 150px;
+    margin-top: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 1 solid black;
+    background-color: #062032;
+    box-sizing: border-box;
+}
+#p1m{
+    width: 35%;
+    height: 400px;
+    margin-right: 10%;
+    background-color: #062032;
+    margin-top: 100px;
+}
+#p1m > img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
 footer{
     width: 100%;
     height: 150px;
     background-color: aqua;
-    text-align: center;
-}
-#podpis{
-    opacity: 0.6;
 }
